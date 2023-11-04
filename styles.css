@@ -43,7 +43,9 @@ body {
     height: 80vh;
 }
 
-.one h1 {
+.one h1,
+.test {
+    margin-top: 20px;
     font-size: 80px;
 
 }
@@ -177,7 +179,11 @@ body {
 
 /* SECTION NINE */
 .nine .card {
-    height: 400px;
+    height: 330px;
+}
+
+.kushika {
+    height: 240px;
 }
 
 .card-text-special {
@@ -260,6 +266,5 @@ hr {
         align-items: center;
         text-align: center;
     }
-
 
 }
