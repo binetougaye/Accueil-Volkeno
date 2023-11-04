@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    background-color: #12e0a5;
+    width: 150px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #12e0a5;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.nav-link:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+/* .nav-link:hover::after {
+ 
+} */
+/* SECTION ONE */
+.one {
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.one h1 {
+    font-size: 80px;
+
+}
+
+.one h2 {
+    color: orange;
+}
+
+/* SECTION TWO */
+.trait {
+    width: 80px;
+    height: 6px;
+    background-color: #1BAFA1;
+}
+
+.text {
+    line-height: 35px;
+}
+
+/* SECTION THREE */
+.fa1 {
+    color: orangered;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.fa2 {
+    color: #1BAFA1;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.fa3 {
+    color: orange;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.fa4 {
+    color: #12e0a5;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+/* SECTION 4 */
+.four .card img {
+    width: 80px;
+    height: 80px;
+}
+
+.four .card {
+    height: 250px;
+}
+
+.card-text {
+    color: navy;
+}
+
+/* SECTION 5 */
+.five {
+    background-color: #023128;
+
+}
+
+/* SECTION 6 */
+.six img {
+    width: 40px;
+}
+
+.card1 {
+    border: 1px solid #1BAFA1;
+}
+
+.card2 {
+    border: 1px solid rgb(11, 214, 11);
+}
+
+.card3 {
+    border: 1px solid rgb(11, 11, 170);
+}
+
+.card4 {
+    border: 1px solid rgb(5, 192, 192);
+}
+
+.card5,
+.card6 {
+    border: 1px solid rgb(10, 191, 191);
+}
+
+.card7,
+.card12 {
+    border: 1px solid red;
+}
+
+.card8 {
+    border: 1px solid purple;
+}
+
+.card9 {
+    border: 1px solid rgb(91, 91, 17);
+}
+
+.card10 {
+    border: 1px solid orange;
+}
+
+.card11 {
+    border: 1px solid aquamarine;
+}
+
+/* SECTION 8 */
+.testimony {
+    position: relative;
+}
+
+.quote {
+    position: absolute;
+    top: -30px;
+    right: 150px;
+    background-color: #fff;
+}
+
+.fa-quote-left {
+    color: #1BAFA1;
+}
+
+.text-testimony {
+    line-height: 40px;
+}
+
+/* SECTION NINE */
+.nine .card {
+    height: 400px;
+}
+
+.card-text-special {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.btn-voir-plus {
+    background-color: #FF9800;
+    color: #fff;
+}
+
+.btn-voir-plus:hover {
+    background-color: #FFF;
+    color: #FF9800;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+/* LAST SECTION */
+
+.last .card {
+    border: 1px solid #09C1A0;
+
+}
+
+/* FOOTER */
+footer {
+    background-color: #023128;
+    font-family: 'Mulish', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+hr {
+    border: 1px solid #fff;
+    background-color: #fff;
+
+}
+
+#logo-foot {
+    width: 50px;
+}
+
+.icon {
+    background-color: #fff;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.icon .bi {
+    color: #023128;
+
+}
+
+@media screen and (max-width:1280px) {
+    .one h1 {
+        font-size: 30px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:590px) {
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+}
